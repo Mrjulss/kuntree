@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x1900/?germany&skyline');
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card{
+    width: fit-content;
+    min-width: 40%;
+    height: fit-content;
+    background-color:rgba(0, 0, 0, 0.65);
+    padding: 20px 45px;
+    border-radius: 2rem;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    width: 100%;
+    height: 5vh;
+    padding: 2%;
+}
+
+#name{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#flag
+{
+    width: 4rem;
+    border-radius: 2rem;
+    opacity: 0.75;
+    margin-left: 3%;
+}
+
+.infos{
+    height: fit-content;
+    width: auto;
+}
+
+.info{
+    width: fit-content;
+    height: fit-content;
+    margin: 4vh 0;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+#search-bar{
+    width: 20vw;
+    max-width: 120px;
+    padding: 5px 20px;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.4rem;
+    border: none;
+}
+
+#search-bar:focus{
+    border:none;
+}
+
+#search-button{
+    height: 3.5vh;
+    width: 3.5vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 3px;
+    border-radius: 2rem;
+}
+
+#search-button:hover{
+    background-color: rgba(163, 163, 163, 0.8);
+}
+
