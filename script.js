@@ -27,6 +27,8 @@ function formatData(data){
 
 }
 
+window.onload = country.fetchData("Germany");
+
 document.querySelector("#search-bar").addEventListener("keyup", function (event){
     if(event.key=="Enter"){
         country.search();
