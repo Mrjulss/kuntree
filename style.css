@@ -86,5 +86,6 @@ body{
 
 #search-button:hover{
     background-color: rgba(163, 163, 163, 0.8);
+    cursor: pointer;
 }
 
